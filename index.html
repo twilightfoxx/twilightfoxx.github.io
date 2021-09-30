@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
-<script type=text/javascript>
-  const translate = document.getElementById("thestuff").value;
-
-  alert('hi');
+<html lang="en">
+<script src="translate.js">
 </script>
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="teaboi.ico">
@@ -10,13 +8,12 @@
   <meta name="description" content="Translate to tea talk">
   <meta name="author" content="twilight">
 </head>
-<html>
   <title>Tea Translator</title>
   <div>
-  <form id="inputbox" action="translated.html">
-    <label for="thestuff">Enter text</label>
+  <form id="inputbox">
+    <label for="thestuff">Enter text</label><br>
     <input type="text" id="thestuff" name="thestuff">
-    <input type="submit" value="Translate">
+    <button type="button" id="ohyeas">translate</button>
   </form>
   </div>
 </html>
