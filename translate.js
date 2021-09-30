@@ -6,8 +6,9 @@
     const isBritish = value => {
     if(value.toLowerCase() === 'british') {
      value = "Bri'ish"; 
+      alert(value);
       } else { 
-       return; 
+       alert('why'); 
         }
     }
     
