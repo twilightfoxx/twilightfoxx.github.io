@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<head>
 <script type="text/javascript">
-  document.getElementById("ohyeas").onclick = function(){
+  function fn1() {
   const translate = document.getElementById("inputbox").value;
   alert('pleas bru');
   }
 </script>
-<head>
   <link rel="shortcut icon" type="image/x-icon" href="teaboi.ico">
   <meta charset="UTF-8">
   <meta name="description" content="Translate to tea talk">
@@ -16,6 +16,6 @@
   <div>
     <label>Enter text</label><br>
     <input type="text" id="inputbox" placeholder="Type here">
-    <button type="button" id="ohyeas">translate</button>
+    <button onclick="fn1()" id="ohyeas">translate</button>
   </div>
 </html>
