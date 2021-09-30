@@ -1,4 +1,4 @@
-document.getElementById("ohyeas").onclick = function(){
+  function fn1() {
   const translate = document.getElementById("inputbox").value;
-  alert(translate);
- }
+  alert('working on it');
+  }
